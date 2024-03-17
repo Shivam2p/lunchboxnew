@@ -1,7 +1,7 @@
-/* Global Styles */
-@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap')
 
-    
+
+
+      
 body {
     font-family: "Loved by the King", cursive;
     font-weight: 400;
@@ -44,7 +44,9 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-}
+}  
+
+
 i{
     font-size: 50px;
     cursor: pointer;
@@ -78,6 +80,7 @@ i{
    
     padding: 50px 0;
 }
+
 
 .about h2 {
     text-align: center;

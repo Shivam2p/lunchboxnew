@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    color: #ff7f50; /* Active link color */
+}
+
+.menu-section {
+    padding: 50px 0;
+}
+
+.menu-section h2 {
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    justify-content: space-around;
+  
+}
+
+
+.menu-item {
+    width: 300px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.menu-item p {
+    margin-top: 10px;
+    text-align: center;
+}
+.menu-item{
+    /* width: 100px; */
+    /* background-color: #ff7f50; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 38em;
+  /* border: #f9f9f9; */
+
+}
+.bt8{
+    width: 6em;
+    height: 3em;
+    border: #f9f9f9;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+}
+.bt8{
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: #3498db; */
+    /* color: white; */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* CSS for button hover effect */
+  .bt8:hover {
+    background-color:red;
+  }
+.bt9{
+    width: 6em;
+    height: 3em;
+    border: #f9f9f9;
+}
+.bt10{
+    width: 6em;
+    height: 3em;
+    border: #f9f9f9;
+}
+.bt9{
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: #3498db; */
+    /* color: white; */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* CSS for button hover effect */
+  .bt9:hover {
+    background-color:red;
+  }
+  .bt10{
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: #3498db; */
+    /* color: white; */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* CSS for button hover effect */
+  .bt10:hover {
+    background-color:red;
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
